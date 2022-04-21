@@ -1,12 +1,12 @@
 // 注: process.env.XX是Vercel的环境变量，配置方式见：https://docs.tangly1024.com/zh/features/personality
 const BLOG = {
-  AUTHOR: '乔布斯大大', // 作者
-  BIO: '一个乐于分享的铁憨憨🐢🐢🐢', // 作者简介
-  LINK: 'https://blog.zzc.ac.cn', // 网站地址
+  AUTHOR: '乔布斯先生', // 作者
+  BIO: '幸福的当事人', // 作者简介
+  LINK: 'https://love.zzc.ac.cn', // 网站地址
   AVATAR: '/avatar.png', // 个人头像 默认取public目录下的avatar.png
-  KEYWORDS: 'Notion, 博客, 分享, 效率, 技术, 电脑, 科学上网, 生活, 规划, 乐于助人', // 网站关键词 英文逗号隔开
+  KEYWORDS: 'Notion,爱情,生活,故事,日记,情感', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
-    process.env.NOTION_PAGE_ID || '24d23eed9b5449628f102f3afcaa557b', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
+    process.env.NOTION_PAGE_ID || '2d128e719bcb463a96e37f160f7668cc', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // 是否显示调试按钮
 
@@ -18,8 +18,8 @@ const BLOG = {
   THEME_SWITCH: process.env.NEXT_PUBLIC_THEME_SWITCH || false, // 是否显示切换主题按钮
   LANG: 'zh-CN', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
   HOME_BANNER_IMAGE: './bg_image.jpg', // 首页背景大图，默认文件：/public/bg_image.jpg 。会被Notion中的封面图覆盖。
-  SINCE: 2021, // e.g if leave this empty, current year will be used.
-  BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '备案号 美ICP备20110911', // 备案号 闽ICP备XXXXXXX-
+  SINCE: 2022, // e.g if leave this empty, current year will be used.
+  BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '爱の起 公元20220318', // 备案号 闽ICP备XXXXXXX-
   APPEARANCE: 'light', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
   FONT: 'font-serif tracking-wider subpixel-antialiased', // 文章字体 ['font-sans', 'font-serif', 'font-mono'] @see https://www.tailwindcss.cn/docs/font-family
   FONT_AWESOME_PATH:
@@ -42,7 +42,7 @@ const BLOG = {
   CONTACT_EMAIL: 'jobs@zzc.ac.cn',
   CONTACT_WEIBO: '',
   CONTACT_TWITTER: '',
-  CONTACT_GITHUB: 'https://github.com/JobsQzhang2018',
+  CONTACT_GITHUB: '',
   CONTACT_TELEGRAM: 'https://t.me/JobsZhang',
 
   // 悬浮挂件
