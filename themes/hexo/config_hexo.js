@@ -1,6 +1,6 @@
 const CONFIG_HEXO = {
   HOME_BANNER_ENABLE: true,
-  HOME_BANNER_GREETINGS: ['Hi，我是一个小人物', 'Hi，我也想要不平凡', 'Hi，我更想帮助更多的人', '欢迎来到我的博客🎉'], // 首页大图标语文字
+  HOME_BANNER_GREETINGS: ['宝贝，你好', '这是我们爱的小窝', '是只属于你和我的二人世界', '希望你在这里可以感受到满满的幸福'], // 首页大图标语文字
 
   // 菜单配置
   MENU_CATEGORY: true, // 显示分类
